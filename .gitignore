@@ -18,3 +18,5 @@ data/
 # dependency managers (if used)
 renv/
 packrat/
+data/*
+\!data/.gitkeep
