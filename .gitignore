@@ -1,0 +1,20 @@
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+
+# notebooks
+.ipynb_checkpoints/
+
+# local data & large artifacts (keep the folder with .gitkeep)
+data/
+*.csv
+*.rds
+*.udpipe
+*.zip
+*.log
+*.exe
+
+# dependency managers (if used)
+renv/
+packrat/
