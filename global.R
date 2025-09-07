@@ -1,4 +1,4 @@
-# global.R
+# global.R 
 
 # 1. Load necessary libraries
 library(tidyverse)
