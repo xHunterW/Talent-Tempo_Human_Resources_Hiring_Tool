@@ -1,4 +1,4 @@
-# 1. Load necessary libraries
+# 1. Load necessary libraries 
 library(tidyverse)
 library(text2vec)
 library(stringr)
