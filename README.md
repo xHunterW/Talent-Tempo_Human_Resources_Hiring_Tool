@@ -1,4 +1,7 @@
 # Overview
+
+### Ask me for a video demo of this project! Email:hunter.worssam1@gmail.com
+
 The Talent Tempo hiring tool accepts an internal job description (raw text) input, and outputs the following:
 - A prediction of how many days will be required to fill the role.
 - A plot showing quantity of similar job postings over time.
