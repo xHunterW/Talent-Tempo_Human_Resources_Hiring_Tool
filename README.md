@@ -71,8 +71,6 @@ Main panel:
 Two side-by-side tables: Internal Buzzwords and Missing External Buzzwords, both with spinners
 
 Notes:
-dataTableOutput() is from DT; ensure DT is attached (in global.R) or call DT::dataTableOutput() in ui.R.
-Spinners (withSpinner(..., type = 4)) require shinycssloaders to be loaded.
 Keep IDs in ui.R and server.R in sync; a mismatch will throw “object not found” errors at render time.
 For theming, you can add shinythemes::themeSelector() or wrap fluidPage(theme = shinythemes::shinytheme("cosmo"), ...).
 
