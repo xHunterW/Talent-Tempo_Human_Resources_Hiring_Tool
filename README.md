@@ -38,7 +38,7 @@ Required columns (case-sensitive):
   
 If your paths differ, adjust the read_csv() line or use file.path() with your app root.
 Packages used:tidyverse, text2vec, stringr, lubridate, glmnet, tm, udpipe, textstem.
-Vocabulary thresholds: term_count_min = 10 and doc_proportion_max = 0.8 control sparsity and generality; adjust for smaller/larger datasets.
+Vocabulary threshold setpoints: term_count_min = 10 and doc_proportion_max = 0.8 control sparsity and generality; adjust for smaller/larger datasets.
 
 ### server.R
 Implements the Shiny server logic for the Talent_Tempo app: validates user input, filters historical postings, trains a TF-IDF + penalized regression model to predict time-to-fill, surfaces internal and external buzzwords, and renders summary cards, tables, and trends.
