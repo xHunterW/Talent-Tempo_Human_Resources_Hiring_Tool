@@ -72,7 +72,7 @@ Two side-by-side tables: Internal Buzzwords and Missing External Buzzwords, both
 
 Notes:
 Keep IDs in ui.R and server.R in sync; a mismatch will throw “object not found” errors at render time.
-For theming, you can add shinythemes::themeSelector() or wrap fluidPage(theme = shinythemes::shinytheme("cosmo"), ...).
+For different theming, you can add shinythemes::themeSelector() or wrap fluidPage(theme = shinythemes::shinytheme("cosmo"), ...).
 
 # Running the RShiny App
 To initialize and launch the app, simply open all four .R files in RStudio and select "Run App". Internal and external job description datasets must be placed in the "data" folder, and the internal path must be specified correctly for the offline_df.csv in the offline_model.R file. This is simply your training set that your ridge model will leverage, and can be a combination of both internal and external datasets. 
