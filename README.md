@@ -68,7 +68,7 @@ Main panel:
 - 3 KPI cards (predicted, internal avg, external avg), each with withSpinner()
 - “Job Postings Over Time” plot with spinner
 - “Time-to-Fill Trend Over Time” plot with spinner
-Two side-by-side tables: Internal Buzzwords and Missing External Buzzwords, both with spinners
+This creates two side-by-side tables: Internal Buzzwords and Missing External Buzzwords, both with spinners
 
 Notes:
 Keep IDs in ui.R and server.R in sync; a mismatch will throw “object not found” errors at render time.
