@@ -10,7 +10,7 @@ The Talent Tempo hiring tool accepts an internal job description (raw text) inpu
 - Top external buzzwords that competitors are using in similar job postings. 
 
 # Datasets
-The actual datasets used for this model are redacted for confidentiality reasons, however they can be easily replicated within any organization. The global.R files requires two datasets, one with internal job posting data, and one with external job posting data from companies ideally within the same industry. The relevant columns required in each are as follows:
+The actual datasets used for this model are redacted for confidentiality reasons, however they can be easily replicated within any organization. The global.R file requires two datasets, one with internal job posting data, and one with external job posting data from companies ideally within the same industry. The relevant columns required in each are as follows:
 
 - job.description column, which features raw job description text
 - created column, which provides the date the job posting was created (must be date/datetime data type
