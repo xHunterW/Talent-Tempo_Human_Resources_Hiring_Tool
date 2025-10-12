@@ -79,7 +79,7 @@ To initialize and launch the app, simply open all four .R files in RStudio and s
 
 # Future Improvements
 #### General
-- Leverage Elastic Net + proper “Ridge”. Currently the helper defaults to alpha=1 (Lasso) instead of using a grid-search alpha ∈ [0,1] and lambda.
+- Leverage Elastic Net + proper “Ridge” regression. Currently the helper defaults to alpha=1 (Lasso) instead of using a grid-search alpha ∈ [0,1] and lambda.
 - Split by created month to avoid leakage (train on older, test on newer).
 - Memoize TF-IDF + models by job_filter.
 - Let users export buzzwords & plots for each job description input.
