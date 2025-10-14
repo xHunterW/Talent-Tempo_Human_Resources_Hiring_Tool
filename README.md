@@ -91,7 +91,6 @@ To initialize and launch the app, simply open all four .R files in RStudio and s
 - Maintain a YAML of allow/block/boost lists (versioned), edit in-app for admins.
 
 #### Data & pipeline:
-- Add renv::init() and commit renv.lock.
 - On app start (or a cron job), build & save tfidf.rds, model.rds, ud_model to avoid per-click training.
 - Publish models/vocabs with pins for simple versioning & rollback.
 - Log inputs length, filter, latency, and errors (logger, loggit) to a CSV or SQLite.
