@@ -50,7 +50,7 @@ Data / objects expected in memory from global.R:
 - title (character)
 - source (character: “internal” / “external”)
 - created (POSIXct/Date) — posting timestamp
-- ud_model — an udpipe model (e.g., english-ewt) for POS-tagging
+- ud_model — an udpipe model for POS-tagging
 
 Helper functions from offline_model.R: generate_tfidf_matrix(), train_ridge_model(), predict_user_time_fill(), find_predictive_buzzwords(), final_buzzword_filter(), apply_custom_boost()
 filter_jobs_by_regex(df, pattern) — a small utility you define (example below)
