@@ -19,7 +19,7 @@ The actual datasets used for this model are redacted for confidentiality reasons
 - title (character) — job title (used for filtering)
 - source (character) — e.g., "external" vs "internal"
 
-These two input files should be placed in the data folder within this github, and the file paths within the global.R file (internal_jobs & external_jobs) should be updated to match the .csv input file names. 
+These two input files should be placed in the data folder within this repo, and the file paths within the global.R file (internal_jobs & external_jobs) should be updated to match the .csv input file names. 
 
 # Required R Files
 ### global.R
