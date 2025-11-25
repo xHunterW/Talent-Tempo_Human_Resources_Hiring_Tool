@@ -37,7 +37,7 @@ Required columns (case-sensitive):
 - source (character) — e.g., "external" vs other (used for subset models)
   
 If your paths differ, adjust the read_csv() line or use file.path() with your app root.
-Packages used:tidyverse, text2vec, stringr, lubridate, glmnet, tm, udpipe, textstem.
+Packages used: tidyverse, text2vec, stringr, lubridate, glmnet, tm, udpipe, textstem.
 Vocabulary threshold setpoints: term_count_min = 10 and doc_proportion_max = 0.8 control sparsity and generality; adjust for smaller/larger datasets.
 
 ### server.R
