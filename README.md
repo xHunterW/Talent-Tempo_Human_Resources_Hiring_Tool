@@ -71,7 +71,7 @@ Main panel:
 This creates two side-by-side tables: Internal Buzzwords and Missing External Buzzwords, both with spinners
 
 Notes:
-Keep IDs in ui.R and server.R in sync; a mismatch will throw “object not found” errors at render time.
+Keep IDs in ui.R and server.R in sync. A mismatch will throw “object not found” errors at render time.
 For different theming, you can add shinythemes::themeSelector() or wrap fluidPage(theme = shinythemes::shinytheme("cosmo"), ...).
 
 # Running the RShiny App
